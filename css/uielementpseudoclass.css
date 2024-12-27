@@ -1,0 +1,16 @@
+/* input[type ="text"]:enabled{
+    background-color: red;
+} */
+
+/* input:disabled{
+    background-color:aqua;
+} */
+
+/* input:required{
+    background-color: aquamarine;
+} */
+
+
+/* input:focus{
+    background-color: rgb(119, 73, 83);
+} */

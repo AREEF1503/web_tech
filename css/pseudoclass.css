@@ -1,0 +1,72 @@
+/* a:any-link{
+color:rgb(118, 111, 158);
+} */
+
+/* a:visited{
+    color:brown;
+} */
+
+/* a:hover{
+    color:blue;
+    font-size:xx-large;
+} */
+
+button:hover{
+    background-color: rgb(80, 59, 100);
+    color: black;
+}
+/*
+p{
+    border: 1px solid black;
+    display: inline;
+}
+
+span{
+    border: 1px solid  black;
+    display: block;
+} */
+/*
+span{
+    border: 1px solid black;
+} */
+/* h1{
+    display: none;
+}
+
+div{
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+button:hover + div{
+    background-color: red;
+
+}
+
+button:hover + div>h1{
+
+    display:block;
+} */
+
+img{
+    opacity: 0.1;
+    width:100vh;
+}
+
+img:hover{
+    opacity: 1.0;
+
+}
+
+
+
+
+/* button:hover + div{
+    background-color: red;
+
+} */
+
+
+
+

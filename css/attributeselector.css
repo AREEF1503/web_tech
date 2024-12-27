@@ -1,0 +1,156 @@
+img{
+    height: 100px;
+    width: 100px;
+}
+/* just attr */
+/* img[alt]{
+    border: 2px solid black;
+} */
+
+/* attr with value  */
+
+/* img[alt|="cartoon"]{
+    border: 2px solid green;
+} */
+/*
+img[alt^="panda"]{
+    border: 2px solid yellow;
+}
+
+img[alt$="image"]{
+    border: 2px solid rgb(255, 0, 0);
+} */
+
+/* img[alt|="im"]{
+    border: 2px solid rgb(255, 0, 0);
+}
+
+img[alt~="image"]{
+    border: 2px solid yellow;
+} */
+
+/* img[alt*="a"]{
+    border: 2px solid yellow;
+} */
+
+
+/* just att */
+
+/* img[alt]{
+    border: 2px solid black;
+} */
+
+
+/* attribute with val */
+
+/* img[alt="cartoon"]{
+    border: 2px solid rgb(61, 61, 146);
+} */
+
+/* attibutes with tilt */
+
+/* img[alt~="image"]{
+    border: 1px solid rgb(18, 96, 52);
+} */
+
+/* attribute with astrisks */
+
+/* img[alt*="i"]{
+    border: 1px solid blue;
+} */
+
+/* attribute with carrot sym */
+
+/* img[alt^=panda]{
+    border: 2px solid red;
+} */
+
+
+/* attribute with dollar sym */
+
+/* img[alt$=image]{
+    border: 3px solid rgb(139, 10, 10);
+} */
+
+/* attribute with pipe sym */
+
+/* ----------------------------------------------------- */
+
+
+/* just att
+
+img[alt]{
+    border: 2px solid red;
+} */
+
+
+
+
+
+
+/* att with value
+
+img[alt="cartoon"]{
+    border: 2px solid red;
+} */
+
+
+
+
+
+
+
+/* att with tilt
+
+img[alt~="image"]{
+    border: 2px solid blue;
+} */
+
+
+
+
+
+
+
+
+/* att with asterisks sym
+
+img[alt*="a"]{
+    border: 2px solid purple;
+} */
+
+
+
+
+
+
+
+/* att with carrot sym
+
+img[alt^=panda]{
+    border: 3px solid teal;
+} */
+
+
+
+
+
+
+
+
+
+/* att with dollar */
+
+/* img[alt$="im"]{
+    border: 1px solid navy;
+} */
+
+img[alt|="cartoon"]{
+    border: 1px solid red;
+}
+
+
+
+
+
+

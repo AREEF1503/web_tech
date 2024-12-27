@@ -1,0 +1,54 @@
+/* div p{
+    background-color: red;
+}
+
+
+div>p{
+    background-color: antiquewhite;
+} */
+
+
+/* span > p{
+    background-color: antiquewhite;
+}  */
+
+
+/* adjacent selector
+div + p{
+    background-color: rgb(71, 44, 97);
+} */
+
+/* general sibling
+div ~ p{
+    background-color: red;
+} */
+
+/* p + p{
+    background-color:blue ;
+}
+
+div span>p{
+    background-color: blanchedalmond;
+} */
+
+
+/* div p{
+    background-color: cadetblue;
+}
+
+article >b{
+    background-color: blueviolet;
+} */
+
+
+/* article + p{
+    background-color: red;
+} */
+
+
+div~p{
+    background-color: blue;
+}   x
+
+
+

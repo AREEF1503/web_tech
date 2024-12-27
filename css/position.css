@@ -1,0 +1,36 @@
+#gp{
+    border: 1px solid black;
+    background-color: antiquewhite;
+    height: 200vh;
+    padding: 50px;
+}
+#parent{
+    border: 1px solid black;
+    height:100vh;
+    background-color: yellow;
+}
+
+.child{
+    border: 1px solid black;
+    height:200px;
+    width: 200px;
+}
+
+#item1{
+    background-color: red;
+    /* position: absolute; */
+    /* position: fixed; */
+    position: sticky;
+    /* left: 0px; */
+    top: 0px;
+    /* left: 0px; */
+    /* right: 0px; */
+
+}
+#item2{
+    background-color: blue;
+}
+
+#item3{
+    background-color: aqua;
+}

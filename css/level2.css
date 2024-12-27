@@ -1,0 +1,17 @@
+header{
+    line-height: 20px;
+    background-color: aqua;
+    color: black;
+    height: 150px;
+    width: 120px;
+}
+
+div{
+    height: 500px;
+    width: 300px;
+    background-color: pink;
+    color: black;
+    border: 1px solid red;
+    border-width: 2px;
+    border-style: dotted;
+}

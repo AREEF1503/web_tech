@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        
+        h1{
+            color: rgb(26, 5, 39);
+        }
+
+        body{
+            background-color:rgb(111, 104, 126);
+        }
+
+        input{
+            background-color:aliceblue
+        }
+
+        #user_address{
+            background-color: aliceblue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend><h1>Registration Form</h1></legend>
+    <form action="#" method="get" autocomplete="on">  <!-- used autocomplete to give a suggestion ,if it was submitted once  -->
+        <table>
+        <tr><td><label for="user_fname">First Name :</label></td>
+        <td><input type="text" name="first name" id="user_fname" placeholder="Enter The First Name"/></td></tr>
+    
+        <tr><td><label for="user_lname">Last Name :</label></td>
+        <td><input type="text" name="last name" id="user_lname" placeholder="Enter The Last Name"/></td></tr>
+    
+        <tr><td><label for="user_dob">Date Of Birth :</label></td>
+        <td><input type="datetime-local" name="date of birth" id="user_dob"/></td></tr>
+    
+        <tr><td><label for="user_gender">Gender :</label></td>
+        <td><input type="radio" name="gender" id="user_gender_male" value="male"/>male
+        <input type="radio" name="gender" id="user_gender_female" value="female"/>female
+        <input type="radio" name="gender" id="user_gender_others" value="others"/>others</td></tr>
+    
+        <tr><td><label for="user_email">Email Id :</label></td>
+        <td><input type="email" name="email" id="user_email" placeholder="Enter The Email Id"/></td></tr>
+    
+        <tr><td><label for="user_mobile">Mobile No :</label></td>
+        <td><input type="tel" name="mobile no" id="user_mobile" placeholder="Enter The Mobile No"/></td></tr>
+    
+        <tr><td><label for="user_address" id="address">Address :</label></td>
+        <td><textarea name="contact address" id="user_address" rows="7" cols="30" placeholder="Type Your Address..."></textarea></td></tr>
+    
+        <tr><td><label for="user_city">City :</label></td>
+        <td><input type="text" name="city" id="user_city" placeholder="Enter The City"/></td></tr>
+    
+        <tr><td><label for="user_pincode">Pin Code :</label></td>
+        <td><input type="number" name="pincode" id="user_pincode" placeholder="Enter The Pin Code"/></td></tr>
+    
+        <tr><td><label for="user_state">State :</label></td>
+        <td><input type="text" name="state" id="user_state" placeholder="Enter The state"/></td></tr>
+    
+        <tr><td><label for="user_country">Country :</label></td>
+        <td><input type="text" name="Country" id="user_country" placeholder="Enter The Country"/></td></tr>
+        
+        <tr><td><label for="user_interest">Interest :</label></td>
+        <td>
+            <table><tr><td><input type="checkbox" name="dancing" id="user_interest_dancing" value="dancing"/>dancing
+        <input type="checkbox" name="singing" id="user_interest_singing" value="singing"/>singing
+        <input type="checkbox" name="drawing" id="user_interest_drawing" value="dancing"/>drawing</td></tr>
+        <tr>
+        <td><input type="checkbox" name="others" id="user_interest_others" value="others"/>others</td></tr>
+            </table>
+        
+        <tr><td><label for="user_qualification"><h2>Qualification</h2></label></td></tr>
+        <table>
+            <tr>
+            <th>Slno</th>
+            <th>Examination</th>
+            <th>Board</th>
+            <th>Percentage  </th>
+            <th>Year Of Passing</th>
+            </tr>
+
+            <tr>
+                <td><ol type="1">
+                    <li></li>
+                    </ol>
+                </td>
+
+                <td>
+                    <label for="user_classx">class X</label>
+                </td>
+                <td>
+                    <input type="text" name="Board" id="user_classx" placeholder="Board" />
+                </td>
+
+                <td>
+                    <input type="number" name="Percentage" id="user_classx" placeholder="Percentage"/>
+                </td>
+
+                <td>
+                    <input type="date" name="year of passedout" id="user_classx"/>
+                </td>
+                
+            </tr>
+
+            <tr>
+                <td><ol type="1">
+                    <li></li>
+                    </ol>
+                </td>
+
+                <td>
+                    <label for="user_classxii">class Xii</label>
+                </td>
+                <td>
+                    <input type="text" name="class xii" id="user_classxii" placeholder="board"/>
+                </td>
+
+                <td>
+                    <input type="number" name="Percentage" id="user_classxii" placeholder="Percentage"/>
+                </td>
+
+                <td>
+                    <input type="date" name="year of passedout" id="user_classxii"/>
+                </td>
+                
+            </tr>
+
+
+            <tr>
+                <td><ol type="1">
+                    <li></li>
+                    </ol>
+                </td>
+
+                <td>
+                    <label for="user_Graduation">Graduation</label>
+                </td>
+                <td>
+                    <input type="text" name="board" id="user_Graduation" placeholder="Board"/>
+                </td>
+
+                <td>
+                    <input type="number" name="Percentage" id="user_Graduation" placeholder="Percentage"/>
+                </td>
+
+                <td>
+                    <input type="date" name="year of passedout" id="user_Graduation"/>
+                </td>
+                
+            </tr>
+
+            <tr>
+                <td><ol type="1">
+                    <li></li>
+                    </ol>
+                </td>
+
+                <td>
+                    <label for="user_master">Master</label>
+                </td>
+                <td>
+                    <input type="text" name="board" id="user_master" placeholder="border"/>
+                </td>
+
+                <td>
+                    <input type="number" name="Percentage" id="user_master" placeholder="Percentage"/>
+                </td>
+
+                <td>
+                    <input type="date" name="year of passedout" id="user_master"/>
+                </td>
+                
+            </tr>
+        </table>
+        
+
+        <label for="user_course">Courses Applied :</label>
+        <input type="radio" name="Course" id="user_course1" value="BCA"/>BCA
+        <input type="radio" name="Course" id="user_course2" value="B.com"/>B.com
+        <input type="radio" name="Course" id="user_course3" value="Bsc"/>Bsc
+        <input type="radio" name="Course" id="user_course4" value="B.A"/>B.A
+        <br>
+        <br>
+        
+
+
+        
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        </center>
+        
+
+
+
+
+
+
+    </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,25 @@
+/* div  p{
+    color: aqua;
+}
+div ~ p{
+
+    color:yellow;
+} */
+
+/* span[class ~= "class"]{
+
+    color:red
+} */
+
+
+/* div > p{
+    color: red;
+} */
+
+/* div + p{
+    color: red;
+} */
+
+div ~ p{
+    color: red;
+}

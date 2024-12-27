@@ -1,0 +1,78 @@
+/* p::first-letter{
+    color: rgb(97, 97, 164);
+    font-size: xx-large;
+} */
+
+
+/* p::first-line{
+    color: blue;
+} */
+
+
+
+
+
+/* p::selection{
+    background-color: rgb(223, 223, 163);
+    color: rgb(69, 32, 85);
+} */
+/*
+h1{
+    text-align: center;
+}
+
+h1::before{
+    content:"* * *";
+    color: red;
+}
+
+h1::after{
+    content: "* * *";
+    color: blue;
+} */
+
+
+/* div {
+    border: 1px solid black;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    background-color: red;
+    color:rgb(227, 227, 39)
+    
+}
+
+h1::before{
+    content: "";
+    border: 1px solid rgb(8, 7, 7);
+    left: 100px;
+    position: absolute;
+    top: 35px;
+    width: 500px;
+    border-bottom-style: none;
+
+}
+
+h1::after{
+    content: "";
+    border: 1px solid rgb(8, 7, 7);
+    right: 100px;
+    position: absolute;
+    top: 35px;
+    width: 500px;
+    border-bottom-style: none;
+
+} */
+
+/* ul > li::marker{
+    color:blue;
+    font-size: xx-large;
+} */
+
+
+/* ul>li{
+    list-style-type: none;
+} */
+
